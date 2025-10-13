@@ -1,0 +1,105 @@
+
+body{
+    margin-top: 2%;
+    background-color: rgb(158, 207, 245);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2%;
+   
+}
+
+.intro{
+    font-size: 20px;
+    padding: 2%;
+    width: 70%;
+    margin: auto;
+    border-top: 3px solid rgb(106, 186, 247);
+    border-bottom: 3px solid rgb(106, 186, 247);
+    text-align: left;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.contenedor{
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 3px solid rgb(106, 186, 247);
+
+}
+
+.proyecto{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(106, 186, 247);
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid  rgb(18, 139, 232);
+    border-radius: 7px;
+    margin: 2%;
+
+}
+
+.proyecto h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: rgb(18, 139, 232);
+
+    border-radius: 80px;
+    
+}
+
+
+.info{
+    font-size: 22px;
+    margin-top: 7%;
+
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+.proyecto img:hover + .info{
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+img{
+    width: 100%;
+    margin-top: 4%;
+  
+    box-shadow: 3px 4px 60px #000000;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+   
+}
+
