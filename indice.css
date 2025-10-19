@@ -103,3 +103,28 @@ img:hover{
    
 }
 
+.proyectoEspecial img{
+    width: 50%;
+
+}
+
+.proyectoEspecial img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+   
+}
+
+
+.proyectoEspecial {
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: rgb(18, 139, 232);
+    border-radius: 80px;
+    padding-right: 7%;
+    padding-top: 1%;
+    margin-left: 6%;
+
+}
